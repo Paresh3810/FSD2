@@ -1,0 +1,74 @@
+                            ----------------------** UNIT :- 1 ** -----------------------
+
+@ JSON : javascript object notation
+
+syntax : 
+  data -> key:value
+          ex:- ("Name":"Paresh")
+  object -> (always in {} )
+          ex:- 
+          {
+            "Student": {"Name":"Paresh","age":19}
+          }
+  Array -> (always in [] )
+          ex:-
+          {
+            "Student": ["paresh","Shivam"]
+          }
+
+@ JSON Datatype:- String , number , object ,Array , boolean , Null
+
+@ JSON :- {"fname": "A","lname":"B"} 
+   vs
+  XML :- <fname>A</fname>
+         <lname>B</lname>
+
+@ For loop :-
+  (1)for in
+    - index return
+  (2)for of
+    -direct value
+
+
+
+
+
+                            ----------------------** UNIT :- 2 ** -----------------------
+
+
+@   - open source server environment -> run js code
+
+@ google search :(nodejs.org)   --> latest version : LTS(22.14.0) is selected 
+  -(1) how to chech version in vscode
+    -> open terminal  :node -v ,npm -v
+
+@ REPL :(Read , Eval , Print , Loop )
+
+@ terminal : node , .help
+            : x=10
+            : console.log("hello")
+            : do{x++;console.log(x)}while(x<5)
+
+@ (1)simple expression
+  (2)use variable
+  (3)multiple expression
+  (4)underscore variable
+  (5).editor
+
+@ Application
+ 1. Data Streaming (ex. neflix , uber)
+
+@ Synchronize (line-by-line work)
+  Asynchronize (multiple work)
+
+@ nodejs core module
+ (1) File System Module(fs)
+    Syntex : 
+      var fs= require("fs")
+  -> write node example with fs module
+   (1)to create folder
+  (2)create one file inside that folder
+  (3)append some data to that file
+  (4) read data from the file
+  (5) read that file
+  (6) delete file
